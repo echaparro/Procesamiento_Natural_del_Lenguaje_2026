@@ -44,7 +44,7 @@ mencionan aplicaciones en procesamiento de voz.
     4.  Diferencias entre stemming y lematización
     5. Librerías: `NLTK`, `spaCy`
 
-###### Sábado · 4 hrs — Limpieza y normalización
+##### Sábado · 4 hrs — Limpieza y normalización
     1. Eliminación de stopwords
     2. Expresiones regulares para texto (`re`)
     3. Normalización: minúsculas, puntuación, acentos
@@ -93,11 +93,9 @@ mencionan aplicaciones en procesamiento de voz.
     5. Librerías: `transformers` (Hugging Face), `torch`, `datasets`
 
 ##### Sábado · 4 hrs — Proyecto Final
-    1. Construcción de un pipeline NLP completo
-    2. Despliegue con `FastAPI` o `Gradio`
-    3. Evaluación final del modelo
-    4. Presentación del proyecto
-    5. Retroalimentación y cierre del curso       
+    1. Evaluación final 
+    2. Presentación del proyecto
+    3. Retroalimentación y cierre del curso       
 
 **Recursos:**
 - *Speech and Language Processing* — Jurafsky & Martin (Cap. 1-2)
