@@ -1,0 +1,8 @@
+Para el archivo HiggingFace la pregunta prueba es:
+    ¿Para qué lenguaje está trabajando?
+
+Para el archivo MAchineLearning las preguntas prueba son:
+    ¿Qué es el Machine Learning?
+    ¿Quién lidera el grupo de investigación?
+    ¿Cuándo comenzó el grupo?
+    ¿Cuántos artículos han publicado?
