@@ -1,0 +1,38 @@
+name: nlp_curso_trax_2026
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Use Python 3.10 — required for the TensorFlow 2.9 / Trax 1.4.1 stack
+  - python=3.10
+  - pip
+  - pip:
+      # --- Core deep learning framework (Trax) ---
+      - trax==1.4.1
+
+      # --- TensorFlow (must match tensorflow-text) ---
+      - tensorflow==2.9.0
+      - tensorflow-text==2.9.0
+      - tensorflow-estimator==2.9.0
+
+      # --- TensorFlow Datasets / metadata (pinned for TF 2.9 + protobuf 3.20) ---
+      - tensorflow-datasets==4.8.3
+      - tensorflow-metadata==1.12.0
+
+      # --- Pinned to avoid the cascading import errors ---
+      # protobuf >=3.20 breaks TF 2.9 generated _pb2 files
+      - protobuf==3.20.3
+      # numpy 2.x is incompatible with TF 2.9 (compiled against numpy 1.x)
+      - numpy==1.26.4
+      # setuptools >=81 removes pkg_resources, which TF stack still imports
+      - setuptools==70.0.0
+
+      # --- JAX backend used by trax.fastmath ---
+      - jax==0.6.2
+      - jaxlib==0.6.2
+
+      # --- Misc support libraries ---
+      - gin-config==0.5.0
+      - tensorflow-hub==0.16.1
+      - termcolor
+      - sentencepiece
