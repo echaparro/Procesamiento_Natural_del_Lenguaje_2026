@@ -2,3 +2,8 @@ Proyecto_Final/__pycache__/chat.cpython-312.pyc
 Proyecto_Final/__pycache__/chat_ui.cpython-312.pyc
 Proyecto_Final/__pycache__/BertSingleton.cpython-312.pyc
 .gradio/certificate.pem
+Proyecto_Final/__pycache__/metricas.cpython-312.pyc
+Proyecto_Final/__pycache__/pipeline.cpython-312.pyc
+
+/Proyecto_Final/Modelos/BERTIN
+/Proyecto_Final/Modelos/DistilBERT

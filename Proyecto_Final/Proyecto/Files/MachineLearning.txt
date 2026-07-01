@@ -1,0 +1,5 @@
+El Machine Learning es una rama de la inteligencia artificial que permite a los sistemas 
+aprender y mejorar sin ser programados explícitamente. En la Universidad Nacional de Colombia, 
+el profesor Juan Pérez lidera el grupo de investigación en NLP (Procesamiento de Lenguaje Natural) 
+desde 2018. El grupo ha publicado más de 50 artículos en conferencias internacionales y 
+recientemente ganó un premio por su trabajo en modelos de lenguaje para español.
